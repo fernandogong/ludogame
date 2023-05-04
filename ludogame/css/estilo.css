@@ -1,0 +1,87 @@
+body{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 900px;
+    height: 900px;
+}
+.container1, .container3{
+    display: flex;
+}
+.container2{
+    display: flex;
+}
+.r1-c1, .r1-c3, .r3-c1, .r3-c3{
+    width: 363px;
+    height: 363px;
+    border: 1px black solid;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.r1-c1-mother, .r1-c3-mother, .r3-c1-mother, .r3-c3-mother{
+    width: 250px;
+    height: 250px;
+    border: 1px black solid;
+
+}
+.r1-c1-child, .r1-c3-child, .r3-c1-child, .r3-c3-child{
+    width: 50px;
+    height: 50px;
+    border: 1px black solid;
+    margin: 35px;
+    float: left;
+}
+
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.white{
+    background-color: white;
+}
+.black{
+    background-color: black;
+}
+.r1-c2, .r3-c2{
+    width: 156px;
+    height: 363px;
+    border: 1px black solid;
+}
+
+.r2-c1, .r2-c3{
+    width: 364px;
+    height: 156px;
+    border: 1px black solid;
+}
+
+.r2-c2{
+    width: 156px;
+    height: 156px;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+.r1-c2>div, .r3-c2>div, .r2-c2>div{
+    width: 50px;
+    height: 50px;
+    border: 1px black solid;
+    float: left;
+}
+.r2-c1>div, .r2-c3>div{
+    width: 50px;
+    height: 50px;
+    border: 1px black solid;
+    float: left;
+}

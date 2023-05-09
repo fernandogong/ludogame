@@ -1,4 +1,7 @@
-# ludogame
+<h1 align="center">Ludo Game</h1>
+
+<h3 align="center">Um dos primeiros projetos que eu fiz, trabalho não está lá de boa qualidade, mas às vezes é bom relembrar dos velhos tempos</h3>
+<br></br>
 
 <div align="center">
     <img src="ludopic.png" alt="imagem do ludo">
